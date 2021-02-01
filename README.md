@@ -38,7 +38,7 @@ Loot (pw_loot).  This plugin contains the HCR2 Loot subsystem that creates loota
 
 Resources (pw_resources).  This plugin contains bioware-script overrides for all default creatures and placeables, forcing all non-custom creatures and placeables to inform the core framework that they are attempting to run scripts.  Its primary purpose is to ensure the framework has complete control over all events occurring in the module.
 
-Rest (pw_rest).  WIP.
+Rest (pw_rest).  This plugin contains the HCR2 Rest subsystem that allows for item requirements for rest and limiting spell and feat recovery.
 
 Ring (lotr_ring).  A customized plugin for a LOTR module.  This plugin allows for the placement and control of The One Ring, ensuring access to it is limited, appropriate negative consequences are dealt when it's obtained and rewarding players for destroying it in the fires of Mt. Doom.
 
@@ -46,11 +46,11 @@ TagBased (ds_tagbased).  This plugin contains libraries wich allow any game obje
 
 Test (test).  This plugin contains a ridiculous number of chat commands that can be used to test various parts of a module during development.
 
-Torch (pw_torch).  WIP.
+Torch (pw_torch).  This plugin contains the HCR2 Torch subsystem which allows for timing torches and lanterns to ensure they are limited.  This subsystem has been modified to use util_i_time.
 
 Travel (ds_travel).  A customized plugin for the Dark Sun server, this plugin allows for random encounters when travelling over large areas.  During an encounter, this plugin will create an encounter area, port the players to that area, and allow for additional players to join the encounter when they return to the encounter area.
 
-UnID (pw_unid).  This plugin contains the HCR2 Torch subsystem which allows for timing torches and lanterns to ensure they are limited.  This subsystem has been modified to use util_i_time.
+UnID (pw_unid).  This plugin contains the HCR2 UnID on Drop subsystem with allows for items dropped on the ground for more than a specified amount of time to become unidentified.
 
 Wells (lotr_wells).  A customized plugin for a LOTR module.  This plugin allow for benefits to be doled out to users of specific good/evil wells.  Additionally, wells can be charged or drained through the use of various liquids by like-aligned or opposite-aligned characters.
 
