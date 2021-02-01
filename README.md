@@ -1,7 +1,7 @@
 # framework-plugins
-A repository containing NWN plug-ins and utilities designed to work with SquattingMonk's nwn-core-framework.  Squatting Monk has a created an awesome event management framework that is not dependent on game-external systems, such as NWNX, although using NWNX is still an option with his system.  The framework is extremely flexible and allows you to subscribe, prioritize and cancel any function to any game event, including standard game events, custom events, timer events and NWNX events (if desired).  The framework can be sourced [here](http://github.com/squattingmonk/nwn-core-framework).
+A repository containing NWN plug-ins and utilities designed to work with SquattingMonk's nwn-core-framework.  Squatting Monk has created an awesome event management framework that is not dependent on game-external systems, such as NWNX, although using NWNX is still an option with his system.  The framework is extremely flexible and allows you to subscribe, prioritize and cancel any function to any game event, including standard game events, custom events, timer events and NWNX events (if desired).  The framework can be sourced [here](http://github.com/squattingmonk/nwn-core-framework).
 
-An example of the framework in action can be seen in the open source Dark Sun - Sands of Time Persistent World NWN:EE module.  [Nasher](https://github.com/squattingmonk/nasher.nim) is required to build this module, but you can peruse the code without building the module.
+An example of the framework in action can be seen in the open source [Dark Sun - Sands of Time](https://github.com/tinygiant98/darksun-sot) Persistent World NWN:EE module.  [Nasher](https://github.com/squattingmonk/nasher.nim) is required to build this module, but you can peruse the code without building the module.
 
 ## Plugin Anatomy:
 
